@@ -4,19 +4,18 @@
 </head>
 <body>
 <form action="thanks.html" method="post">
-Name:<input type=text name=abc/></br>
-Password:<input type=password name=pwd/></br>
-Email id:<input type=text name=email/></br>
-Phone number:<input type=text name=number/></br>
-Gender:<input type=radio name=gender>male &nbsp;&nbsp;&nbsp;
-       <input type=radio name=gender>female</br>
-DOB:<input type=text name=dob/></br>
-Languages known:</br><input type=checkbox name=a>telugu </br>
-                <input type=checkbox name=b>english </br>
-                 <input type=checkbox name=c>hindi </br>
-Address:<input type=text area name=addr rows=5 cols=10> </br>
-<input type=submit value=Submit> &nbsp;&nbsp;&nbsp;
-<input type=reset value=Reset>
+<input type=text name=abc placeholder="Name"/></br>
+<input type=password name=pwd placeholder="Password"/></br>
+<input type=text name=Email placeholder="Email Id"/></br>
+<input type=text name=Number placeholder="Phone Number"/></br>
+<input type=text name=Gender list="Gender" placeholder="Gender"></br>
+<datalist id="Gender">
+      <option>Male</option>
+      <option>Female</option>
+</datalist>
+<input type=text name=dob placeholder="DOB"/></br>
+<input type=text area name=addr rows=5 cols=10 placeholder="Address"> </br>
+<button type="submit">Submit</button>
 </form>
 </body>
 </html>
