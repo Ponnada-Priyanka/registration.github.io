@@ -1,26 +1,21 @@
-<doctype! html>
-<html>
-<head>
-<style>form{background:pink;width:382px;margin:auto;margin:20px 0px 0px 450px;padding:20px;border-radius:15px;}
-p{font-weight:bolder;font-size:10px;}
-h2{text-align:center;color:pink;}
-body{background:black;}
-</style>
+<!doctype html>
+<html><head>
+<link rel="stylesheet" href="stylesheet.css" type="text/css"/>
 </head>
-<body><h2>Registration form</h2>
+<body>
 <form action="thanks.html" method="post">
-<p>Name:</p><input type="text" name="abc"/></br>
-<p>Password:</p><input type="password" name="pwd"/></br>
-<p>Email:</p><input type="text" name="email"/></br>
-<p>Phone number:</p><input type="text" name="phone no"/></br>
-<p>Gender:</p><input type="radio" name="gender">Male</br>
-<input type="radio" name="gender">Female</br>
-<p>DOB:</p><input type="text" name="dob"/></br>
-<p>Language:</p><input type="checkbox" name="a">Telugu</br>
-<input type="checkbox" name="b">Hindi</br>
-<input type="checkbox" name="c">English</br>
-<p>Addresss:</p><input type="text area" name="addr" rows=2 cols=5></br>
-<input type=submit value=submit> &nbsp;&nbsp;&nbsp;&nbsp;
+name:<input type=text name=abc/></br>
+password:<input type=password name=pwd/></br>
+email id:<input type=text name=email/></br>
+phone number:<input type=text name=number/></br>
+gender:<input type=radio name=gender>male &nbsp;&nbsp;&nbsp;
+       <input type=radio name=gender>female</br>
+dob:<input type=text name=dob/></br>
+languages known:</br><input type=checkbox name=a>telugu </br>
+                <input type=checkbox name=b>english </br>
+                 <input type=checkbox name=c>hindi </br>
+address:<input type=text area name=addr rows=5 cols=10> </br>
+<input type=submit value=submit> &nbsp;&nbsp;&nbsp;
 <input type=reset value=reset>
 </form>
 </body>
